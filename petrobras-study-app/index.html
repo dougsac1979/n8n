@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f4c5c" />
+  <title>PetroProva | Técnico de Inspeção Petrobras</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <h1>PetroProva</h1>
+      <p>Técnico de Inspeção de Equipamentos e Instalações Júnior</p>
+    </div>
+    <button id="themeToggle" aria-label="Alternar tema">🌙</button>
+  </header>
+
+  <main>
+    <nav class="tabs" id="tabs"></nav>
+
+    <section class="card" id="dashboard" data-screen="Dashboard"></section>
+    <section class="card hidden" id="radar" data-screen="Radar da Prova"></section>
+    <section class="card hidden" id="estudo" data-screen="Modo Estudo"></section>
+    <section class="card hidden" id="questoes" data-screen="Banco de Questões"></section>
+    <section class="card hidden" id="treino" data-screen="Modo Treino"></section>
+    <section class="card hidden" id="simulado" data-screen="Simulado"></section>
+    <section class="card hidden" id="ia" data-screen="IA de Estudo"></section>
+    <section class="card hidden" id="revisao" data-screen="Revisão Inteligente"></section>
+    <section class="card hidden" id="simulado-inteligente" data-screen="Simulado Inteligente"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
